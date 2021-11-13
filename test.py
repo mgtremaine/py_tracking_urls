@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+#Simple test values
+#Missing Mail Innovations test
+
 import py_tracking_urls
 
 errors = False
