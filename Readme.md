@@ -21,7 +21,7 @@ freely used in any project which is compatible with this license.
 Usage:
 ```python3
 tracking = '1Z9999W99999999999';
-url = get_tracking_url($tracking);
+url = get_tracking_url(tracking);
 print(url)
 ```
 
