@@ -49,7 +49,7 @@ def get_tracking_url(tracking_number):
 		},
 		#FEDEX - FEDERAL EXPRESS
 		{
-			'url':'http://www.fedex.com/Tracking?language=english&cntry_code=us&tracknumbers=',
+            'url':'https://www.fedex.com/fedextrack/?trknbr=',
             'reg':r'\b(((96\d\d|6\d)\d{3} ?\d{4}|96\d{2}|\d{4}) ?\d{4} ?\d{4}( ?\d{3}| ?\d{15})?)\b'
 		},
 		#ONTRAC
